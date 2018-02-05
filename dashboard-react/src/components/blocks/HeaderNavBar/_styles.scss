@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #DFDFDF;
+    height: 60px;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+
+}
+.status-panel {
+    height:100%;
+    width:100px;
+    flex-grow: 0.5;
+    background-color: #d5ecff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .status-label {
+        margin-right: 10px;
+    }
+}
+.user-panel {
+    height: 100%;
+    width: 70px;
+    flex-grow: 0.25;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.img-user {
+    height: 50px;
+    border-radius:50%;
+}
+.logo-container {
+    flex-grow: 10;
+    padding-left: 5em;
+    display: flex;
+    align-items: center;
+}
